@@ -88,24 +88,36 @@ A signed Android APK has also been distributed to invited reviewers through Fire
 
 ## Screenshots
 
-### Career Readiness Dashboard
-![CareerMate AI Dashboard](screenshots/dashboard.png)
-
-### Skill Gap Analysis
-![Skill Gap Analysis](screenshots/skill-gap.png)
-
-### CV Feedback
-![CV Feedback](screenshots/cv-feedback.png)
-
-### Portfolio Builder
-![Portfolio Builder](screenshots/portfolio-builder.png)
-
-### Interview Practice
-![Interview Practice](screenshots/interview-practice.png)
-
-### AI Career Coach
-![AI Career Coach](screenshots/ai-career-coach.png)
-
+<table>
+  <tr>
+    <td align="center">
+      <strong>Career Readiness Dashboard</strong><br><br>
+      <img src="screenshots/dashboard.png" alt="Career Readiness Dashboard" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Skill Gap Analysis</strong><br><br>
+      <img src="screenshots/skill-gap.png" alt="Skill Gap Analysis" width="220"/>
+    </td>
+    <td align="center">
+      <strong>CV Feedback</strong><br><br>
+      <img src="screenshots/cv-feedback.png" alt="CV Feedback" width="220"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Portfolio Builder</strong><br><br>
+      <img src="screenshots/portfolio-builder.png" alt="Portfolio Builder" width="220"/>
+    </td>
+    <td align="center">
+      <strong>Interview Practice</strong><br><br>
+      <img src="screenshots/interview-practice.png" alt="Interview Practice" width="220"/>
+    </td>
+    <td align="center">
+      <strong>AI Career Coach</strong><br><br>
+      <img src="screenshots/ai-career-coach.png" alt="AI Career Coach" width="220"/>
+    </td>
+  </tr>
+</table>
 ---
 
 ## Project Status
