@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/interviewRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/interviewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#185FA5"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="28dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/interviewTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interview Practice"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/interviewSubtitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Improve your answers with strengths, tips and sample responses"
+            android:textColor="#D6E8FA"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="22dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="28dp">
+
+            <TextView
+                android:id="@+id/questionCounterText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 1 of 10"
+                android:textColor="#8FA5C0"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/questionCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dashboard_card_bg"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/questionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:text="Tell me about yourself."
+                    android:textColor="#1A1A2E"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/answerInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/input_background"
+                    android:gravity="top"
+                    android:hint="Type your interview answer here..."
+                    android:inputType="textMultiLine"
+                    android:minLines="5"
+                    android:paddingStart="16dp"
+                    android:paddingTop="14dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="14dp"
+                    android:textColor="#1A1A2E"
+                    android:textColorHint="#8FA5C0"
+                    android:textSize="15sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/submitAnswerButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/login_button_blue"
+                    android:text="Check My Answer"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/nextQuestionButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/outline_button_bg"
+                    android:text="Next Question"
+                    android:textAllCaps="false"
+                    android:textColor="#185FA5"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="GUIDED FEEDBACK"
+                android:textColor="#8FA5C0"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/feedbackText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dashboard_card_bg"
+                android:lineSpacingExtra="5dp"
+                android:padding="16dp"
+                android:text="Your strengths, improvement points and sample answer will appear here."
+                android:textColor="#1A1A2E"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/answerPreviewText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/dashboard_card_bg"
+                android:lineSpacingExtra="5dp"
+                android:padding="16dp"
+                android:text="Last saved answer will appear here."
+                android:textColor="#6B8CAE"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backToDashboardButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/outline_button_bg"
+                android:text="Back to Dashboard"
+                android:textAllCaps="false"
+                android:textColor="#185FA5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <color name="primary_blue">#1E6DB6</color>
+    <color name="dark_text">#17172B</color>
+    <color name="soft_text">#6F8FB2</color>
+    <color name="progress_track">#DDE7F2</color>
+    <color name="version_text">#C7DCF3</color>
+    <color name="white">#FFFFFF</color>
+</resources>

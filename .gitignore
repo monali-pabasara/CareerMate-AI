@@ -1,0 +1,43 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Firebase configuration
+google-services.json
+**/google-services.json
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Signing keys
+*.jks
+*.keystore
+
+# Node / Firebase Functions dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/build/
+
+# Logs
+*.log
+.idea/
+# Generated release packages
+app/release/
+*.apk
+*.aab
