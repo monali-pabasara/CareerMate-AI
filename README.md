@@ -85,17 +85,26 @@ A signed Android APK has also been distributed to invited reviewers through Fire
 
 ---
 
+
 ## Screenshots
 
-Application screenshots will be added here to demonstrate:
+### Career Readiness Dashboard
+![CareerMate AI Dashboard](screenshots/dashboard.png)
 
-* Career Readiness Dashboard
-* Skill Gap Analysis
-* CV Feedback
-* Portfolio Builder
-* Interview Practice
-* Career Recommendations
-* AI Career Coach
+### Skill Gap Analysis
+![Skill Gap Analysis](screenshots/skill-gap.png)
+
+### CV Feedback
+![CV Feedback](screenshots/cv-feedback.png)
+
+### Portfolio Builder
+![Portfolio Builder](screenshots/portfolio-builder.png)
+
+### Interview Practice
+![Interview Practice](screenshots/interview-practice.png)
+
+### AI Career Coach
+![AI Career Coach](screenshots/ai-career-coach.png)
 
 ---
 
